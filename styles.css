@@ -1,0 +1,55 @@
+/* This section styles a box element */
+.box {
+    height: 580px;
+    /* sets the height of the box */
+    width: 300px;
+    /* sets the width of the box */
+    text-align: left;
+    /* aligns the text to the left */
+    padding: 10px;
+    /* adds padding to the box */
+    margin: 5px;
+    /* sets the margin around the box */
+    border: 1px solid lightgray;
+    /* adds a light gray border to the box */
+    box-shadow: 2px 2px 10px rgb(125, 125, 125);
+    /* adds a box shadow to the box */
+}
+
+/* This section styles a container element */
+.container {
+    border: 5px;
+    /* sets the border of the container element */
+    text-align: left;
+    /* aligns the text to the left */
+    float: right;
+    /* floats the container element to the right */
+    padding: 10px;
+    /* adds padding to the container element */
+    font-size: medium;
+    /* sets the font size of the container element */
+    border: 1px solid lightgray;
+    /* adds a light gray border to the container element */
+}
+
+/* This section styles a specific element with an ID of "first-italic" */
+#first-italic {
+    font: italic 1em "Fira Sans", serif;
+    /* sets the font style for the "first-italic" element */
+}
+
+/* This section styles an unordered list element */
+ul {
+    list-style: none;
+    /* removes the bullet points from the list */
+    text-align: left;
+    /* aligns the text to the left */
+    padding: 0px;
+    /* removes padding from the list */
+}
+
+/* This section styles a span element within a list item element */
+li span {
+    font-weight: bold;
+    /* sets the font weight for the span element within a list item element */
+}
