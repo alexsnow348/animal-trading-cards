@@ -12,7 +12,7 @@
     /* sets the margin around the box */
     border: 1px solid lightgray;
     /* adds a light gray border to the box */
-    box-shadow: 2px 2px 10px rgb(125, 125, 125);
+    box-shadow: 2px 2px 10px rgb(73 44 28 / 82%);
     /* adds a box shadow to the box */
 }
 
